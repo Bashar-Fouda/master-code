@@ -1,0 +1,242 @@
+{
+  "nav_home": {
+    "en": "Home",
+    "ar": "الرئيسية"
+  },
+  "nav_portfolio": {
+    "en": "Portfolio",
+    "ar": "أعمالنا"
+  },
+  "nav_team": {
+    "en": "Team",
+    "ar": "فريقنا"
+  },
+  "nav_contact": {
+    "en": "Contact",
+    "ar": "تواصل معنا"
+  },
+  "hero_badge": {
+    "en": "ORIGINAL VI PRESERVED • #F78400 • #2D3139",
+    "ar": "الهوية الأصلية محفوظة • #F78400 • #2D3139"
+  },
+  "hero_title1": {
+    "en": "We Build <span>Clean,</span><br/>Well-Coded Future",
+    "ar": "نبني <span>مستقبل</span><br/>نظيف ومُتقن البرمجة"
+  },
+  "hero_desc": {
+    "en": "Master Code is a tech agency crafting performant, maintainable software. Original logo from VI.pdf, colors #F78400 #2D3139 #F8F9FA preserved. Lexend for English, Almarai for العربية.",
+    "ar": "ماستر كود وكالة تقنية تبني برمجيات عالية الأداء وقابلة للصيانة. اللوجو الأصلي من VI.pdf، الألوان #F78400 #2D3139 #F8F9FA محفوظة. Lexend للإنجليزية و Almarai للعربية فقط."
+  },
+  "hero_cta1": {
+    "en": "View Work",
+    "ar": "شاهد أعمالنا"
+  },
+  "hero_cta2": {
+    "en": "Start Project",
+    "ar": "ابدأ مشروعك"
+  },
+  "principles": {
+    "en": "O U R   P R I N C I P L E S",
+    "ar": "م ب ا د ئ ن ا"
+  },
+  "values_title": {
+    "en": "CLEAN CODE<br/>SMART LOGIC",
+    "ar": "كود نظيف<br/>منطق ذكي"
+  },
+  "value1_title": {
+    "en": "CLEAN CODE",
+    "ar": "كود نظيف"
+  },
+  "value1_desc": {
+    "en": "Maintainable, tested, documented. No shortcuts. SRP, DRY, KISS enforced by senior reviewers.",
+    "ar": "قابل للصيانة، مُختبر، موثق. بدون اختصارات. مبادئ SRP و DRY و KISS يطبقها مراجعون كبار."
+  },
+  "value2_title": {
+    "en": "SMART LOGIC",
+    "ar": "منطق ذكي"
+  },
+  "value2_desc": {
+    "en": "Efficient algorithms, thoughtful architecture. We measure before optimizing. Performance budget <200KB.",
+    "ar": "خوارزميات فعالة، معمارية مدروسة. نقيس قبل أن نحسن. ميزانية أداء أقل من 200KB."
+  },
+  "value3_title": {
+    "en": "FLEXIBLE DESIGNS",
+    "ar": "تصاميم مرنة"
+  },
+  "value3_desc": {
+    "en": "Design system with tokens #F78400 #2D3139. Responsive 320→1440, WCAG AA, dark modern techy.",
+    "ar": "نظام تصميم برموز #F78400 #2D3139. متجاوب من 320 إلى 1440، متوافق مع WCAG AA، داكن وعصري."
+  },
+  "value4_title": {
+    "en": "SEAMLESS EXPERIENCE",
+    "ar": "تجربة سلسة"
+  },
+  "value4_desc": {
+    "en": "60fps interactions, fade-in scroll, micro-animations. Feels native, not templated.",
+    "ar": "تفاعلات 60fps، ظهور عند التمرير، حركات دقيقة. يبدو أصلياً وليس قالباً."
+  },
+  "services_label": {
+    "en": "S E R V I C E S",
+    "ar": "خ د م ا ت ن ا"
+  },
+  "services_title": {
+    "en": "We ship production-grade<br/>software, not prototypes",
+    "ar": "نُسلم برمجيات بجودة<br/>إنتاجية، ليس نماذج أولية"
+  },
+  "services_web_k": {
+    "en": "Frontend + Backend",
+    "ar": "واجهات + خلفية"
+  },
+  "services_web_t": {
+    "en": "Web Development",
+    "ar": "تطوير المواقع"
+  },
+  "services_web_d": {
+    "en": "Next.js 15, React 19, pure HTML/CSS/JS when needed. Clean, well-structured code.",
+    "ar": "Next.js 15 و React 19 و HTML/CSS/JS نقي عند الحاجة. كود نظيف ومنظم."
+  },
+  "services_mobile_k": {
+    "en": "iOS & Android",
+    "ar": "iOS و Android"
+  },
+  "services_mobile_t": {
+    "en": "Mobile Apps",
+    "ar": "تطبيقات الجوال"
+  },
+  "services_mobile_d": {
+    "en": "React Native, Flutter. Native performance, shared logic. Offline-first.",
+    "ar": "React Native و Flutter. أداء أصلي، منطق مشترك. يعمل بدون إنترنت أولاً."
+  },
+  "services_cloud_k": {
+    "en": "AWS / GCP / Azure",
+    "ar": "AWS / GCP / Azure"
+  },
+  "services_cloud_t": {
+    "en": "Cloud & DevOps",
+    "ar": "السحابة و DevOps"
+  },
+  "services_cloud_d": {
+    "en": "Terraform, K8s, CI/CD. Pipeline generator + deployment manager agents.",
+    "ar": "Terraform و K8s و CI/CD. مولد خطوط الأنابيب ومدير النشر."
+  },
+  "services_ui_k": {
+    "en": "Design System",
+    "ar": "نظام تصميم"
+  },
+  "services_ui_t": {
+    "en": "UI/UX Pro Max",
+    "ar": "UI/UX Pro Max"
+  },
+  "services_ui_d": {
+    "en": "50 styles, 21 palettes, tokens #F78400 #2D3139. Lexend/Almarai separation.",
+    "ar": "50 نمط، 21 لوحة ألوان، رموز #F78400 #2D3139. فصل Lexend و Almarai."
+  },
+  "services_3d_k": {
+    "en": "Three.js / R3F",
+    "ar": "Three.js / R3F"
+  },
+  "services_3d_t": {
+    "en": "3D Web Experiences",
+    "ar": "تجارب ويب ثلاثية الأبعاد"
+  },
+  "services_3d_d": {
+    "en": "GLB <5MB, Draco compressed. Scroll-driven, mobile fallback.",
+    "ar": "GLB أقل من 5MB مضغوط بـ Draco. تفاعل بالتمرير مع بديل للجوال."
+  },
+  "services_consult_k": {
+    "en": "Architecture",
+    "ar": "المعمارية"
+  },
+  "services_consult_t": {
+    "en": "Consulting",
+    "ar": "الاستشارات"
+  },
+  "services_consult_d": {
+    "en": "System design, tech decisions, dependency analysis. Senior architect agent.",
+    "ar": "تصميم الأنظمة واتخاذ القرارات التقنية وتحليل الاعتماديات. وكيل معماري كبير."
+  },
+  "portfolio_label": {
+    "en": "P O R T F O L I O",
+    "ar": "أ ع م ا ل ن ا"
+  },
+  "portfolio_title": {
+    "en": "Selected work",
+    "ar": "أعمال مختارة"
+  },
+  "portfolio_all": {
+    "en": "View all projects",
+    "ar": "عرض كل المشاريع"
+  },
+  "testimonials_label": {
+    "en": "T E S T I M O N I A L S",
+    "ar": "آ ر ا ء   ا ل ع م ل ا ء"
+  },
+  "faq_label": {
+    "en": "F A Q",
+    "ar": "ا ل أ س ئ ل ة   ا ل ش ا ئ ع ة"
+  },
+  "faq_title": {
+    "en": "Common questions",
+    "ar": "أسئلة شائعة"
+  },
+  "faq_q1": {
+    "en": "Do you preserve existing visual identity?",
+    "ar": "هل تحافظون على الهوية البصرية الحالية؟"
+  },
+  "faq_a1": {
+    "en": "Yes — we used your exact MC monogram from VI.pdf, original colors #F78400 #2D3139 #F8F9FA #914D00, and kept Lexend for English / Almarai for Arabic only. No redesign without permission.",
+    "ar": "نعم — استخدمنا نفس شعار MC الأصلي من VI.pdf، الألوان الأصلية #F78400 #2D3139 #F8F9FA #914D00، وحافظنا على Lexend للإنجليزية و Almarai للعربية فقط. بدون إعادة تصميم بدون إذن."
+  },
+  "faq_q2": {
+    "en": "What tech stack do you use?",
+    "ar": "ما هي التقنيات التي تستخدمونها؟"
+  },
+  "faq_a2": {
+    "en": "Pure HTML/CSS/JS for this site, but we also ship React 19, Next.js 15, Vue 3.5, Three.js, Node/Express, Postgres, Terraform, K8s. Stack chosen per problem, not hype.",
+    "ar": "HTML/CSS/JS نقي لهذا الموقع، لكننا نستخدم أيضاً React 19 و Next.js 15 و Vue 3.5 و Three.js و Node/Express و Postgres و Terraform و K8s. نختار التقنية حسب المشكلة وليس حسب الشهرة."
+  },
+  "faq_q3": {
+    "en": "How do you ensure clean code?",
+    "ar": "كيف تضمنون كود نظيف؟"
+  },
+  "faq_a3": {
+    "en": "clean-code agent enforces SRP/DRY/KISS/YAGNI, <20 lines per function, guard clauses. code-review 5-axis + security gate before merge. Coverage 85%+.",
+    "ar": "وكيل clean-code يطبق SRP و DRY و KISS و YAGNI، أقل من 20 سطر لكل دالة، شروط حماية. مراجعة 5 محاور + بوابة أمان قبل الدمج. تغطية 85%+."
+  },
+  "faq_q4": {
+    "en": "Do you support Arabic RTL?",
+    "ar": "هل تدعمون العربية RTL؟"
+  },
+  "faq_a4": {
+    "en": "Native — Almarai for Arabic only, Lexend for English only. Full RTL layout, mirroring, and typographic scale. Tested with real Arabic content.",
+    "ar": "أصلي — Almarai للعربية فقط و Lexend للإنجليزية فقط. تخطيط RTL كامل مع عكس واتجاه وقياس طباعي. مُختبر بمحتوى عربي حقيقي."
+  },
+  "faq_q5": {
+    "en": "What's your delivery process?",
+    "ar": "ما هي عملية التسليم؟"
+  },
+  "faq_a5": {
+    "en": "interview → idea-refine → spec → planning → incremental build → test-driven → code-review → web-perf → DevOps ship. Your 24 agents run in sequence.",
+    "ar": "مقابلة → تحسين الفكرة → مواصفات → تخطيط → بناء تدريجي → تطوير موجه بالاختبارات → مراجعة كود → أداء ويب → نشر DevOps. وكلاؤك الـ 24 يعملون بالتسلسل."
+  },
+  "cta_title": {
+    "en": "Ready to build<br/>clean, well-coded?",
+    "ar": "جاهز لبناء<br/>شيء نظيف ومُتقن؟"
+  },
+  "cta_desc": {
+    "en": "Original VI preserved. MC monogram from PDF. #F78400 #2D3139. Lexend EN / Almarai AR. Let's ship production.",
+    "ar": "الهوية الأصلية محفوظة. شعار MC من PDF. #F78400 #2D3139. Lexend EN / Almarai AR. هيا نُطلق للإنتاج."
+  },
+  "cta_btn": {
+    "en": "Start project",
+    "ar": "ابدأ مشروعك"
+  },
+  "contact_title": {
+    "en": "Let's build<br/><span style='color:var(--orange)'>clean, well-coded</span>",
+    "ar": "هيا نبني<br/><span style='color:var(--orange)'>شيئاً نظيفاً ومُتقناً</span>"
+  },
+  "contact_desc": {
+    "en": "Tell us about your project. We reply in 24h. Original VI #F78400 #2D3139 preserved, logo from PDF not redesigned.",
+    "ar": "أخبرنا عن مشروعك. نرد خلال 24 ساعة. الهوية الأصلية #F78400 #2D3139 محفوظة، اللوجو من PDF لم يُعاد تصميمه."
+  }
+}

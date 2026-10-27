@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Master Code — clean, well-coded</title>
+<meta name="description" content="Master Code builds clean, well-coded software. CLEAN CODE / SMART LOGIC / FLEXIBLE DESIGNS / SEAMLESS EXPERIENCE."/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <div id="preloader">
+    <img src="assets/logo-orange.png" alt="Master Code" class="pre-logo" />
+    <div class="pre-bar"><div class="pre-bar-inner"></div></div>
+  </div>
+  <header class="header">
+    <div class="header-top">
+      <a href="index.html" class="logo-wrap" aria-label="Master Code Home">
+        <img src="assets/logo-white.png" data-light="assets/logo-orange.png" data-dark="assets/logo-white.png" alt="Master Code Logo - MC monogram original from VI.pdf" class="logo-img" />
+        <span class="logo-text">MASTER <span>CODE</span></span>
+      </a>
+      <div class="header-actions">
+        <button id="langToggle" class="lang-toggle" aria-label="Switch language"><span class="ar">العربية</span></button>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme"><i data-lucide="moon" style="width:18px;height:18px"></i></button>
+        <button id="hamburger" class="icon-btn hamburger" aria-label="Menu" aria-expanded="false"><i data-lucide="menu" style="width:18px;height:18px"></i></button>
+      </div>
+    </div>
+    <nav id="navBelow" class="nav-below" aria-label="Main">
+      <a href="index.html" class="nav-link active" data-i18n="nav_home">Home</a>
+      <a href="portfolio.html" class="nav-link " data-i18n="nav_portfolio">Portfolio</a>
+      <a href="team.html" class="nav-link " data-i18n="nav_team">Team</a>
+      <a href="contact.html" class="nav-link " data-i18n="nav_contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <div class="hero-badge" data-i18n="hero_badge">ORIGINAL VI PRESERVED • #F78400 • #2D3139</div>
+      <h1 data-i18n="hero_title">We Build <span>Clean,</span><br/>Well-Coded Future</h1>
+      <p data-i18n="hero_desc">Master Code is a tech agency crafting performant, maintainable software. Original logo from VI.pdf, colors #F78400 #2D3139 #F8F9FA preserved. Lexend for English, Almarai for العربية.</p>
+      <div class="hero-ctas">
+        <a href="portfolio.html" class="btn btn-primary"><span data-i18n="hero_cta1">View Work</span> <i data-lucide="arrow-right" style="width:18px"></i></a>
+        <a href="contact.html" class="btn btn-ghost" data-i18n="hero_cta2">Start Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow reveal" data-i18n="principles">O U R   P R I N C I P L E S</span>
+      <h2 class="reveal" style="font-size:clamp(28px,4vw,44px);font-weight:800;line-height:1.1;margin-bottom:12px" data-i18n="values_title">CLEAN CODE<br/>SMART LOGIC</h2>
+      <div class="values-grid">
+        <div class="value-card reveal"><div class="value-num">01</div><h3 data-i18n="v1_t">CLEAN CODE</h3><p data-i18n="v1_d">Maintainable, tested, documented. No shortcuts. SRP, DRY, KISS enforced.</p></div>
+        <div class="value-card reveal reveal-delay-1"><div class="value-num">02</div><h3 data-i18n="v2_t">SMART LOGIC</h3><p data-i18n="v2_d">Efficient algorithms, thoughtful architecture. Performance budget &lt;200KB.</p></div>
+        <div class="value-card reveal reveal-delay-2"><div class="value-num">03</div><h3 data-i18n="v3_t">FLEXIBLE DESIGNS</h3><p data-i18n="v3_d">Design system with tokens #F78400 #2D3139. Responsive 320→1440, WCAG AA.</p></div>
+        <div class="value-card reveal reveal-delay-3"><div class="value-num">04</div><h3 data-i18n="v4_t">SEAMLESS EXPERIENCE</h3><p data-i18n="v4_d">60fps interactions, fade-in scroll, micro-animations. Feels native.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--bg-2)">
+    <div class="container">
+      <span class="eyebrow reveal" data-i18n="services_l">S E R V I C E S</span>
+      <h2 class="reveal" style="font-size:clamp(28px,4vw,44px);font-weight:800;margin-bottom:48px" data-i18n="services_t">We ship production-grade<br/>software, not prototypes</h2>
+      <div class="grid grid-3">
+        <div class="card reveal"><div class="card-img"><img src="https://picsum.photos/id/0/600/400" alt="Web Dev" loading="lazy"/></div><div class="card-body"><div class="card-kicker" data-i18n="s_web_k">Frontend + Backend</div><h3 data-i18n="s_web_t">Web Development</h3><p data-i18n="s_web_d">Next.js 15, React 19, pure HTML/CSS/JS when needed.</p></div></div>
+        <div class="card reveal reveal-delay-1"><div class="card-img"><img src="https://picsum.photos/id/1/600/400" alt="Mobile" loading="lazy"/></div><div class="card-body"><div class="card-kicker" data-i18n="s_mob_k">iOS & Android</div><h3 data-i18n="s_mob_t">Mobile Apps</h3><p data-i18n="s_mob_d">React Native, Flutter. Native performance.</p></div></div>
+        <div class="card reveal reveal-delay-2"><div class="card-img"><img src="https://picsum.photos/id/2/600/400" alt="Cloud" loading="lazy"/></div><div class="card-body"><div class="card-kicker" data-i18n="s_cloud_k">AWS / GCP / Azure</div><h3 data-i18n="s_cloud_t">Cloud & DevOps</h3><p data-i18n="s_cloud_d">Terraform, K8s, CI/CD.</p></div></div>
+        <div class="card reveal"><div class="card-img"><img src="https://picsum.photos/id/3/600/400" alt="UI/UX" loading="lazy"/></div><div class="card-body"><div class="card-kicker" data-i18n="s_ui_k">Design System</div><h3 data-i18n="s_ui_t">UI/UX Pro Max</h3><p data-i18n="s_ui_d">50 styles, 21 palettes, tokens #F78400 #2D3139.</p></div></div>
+        <div class="card reveal reveal-delay-1"><div class="card-img"><img src="https://picsum.photos/id/4/600/400" alt="3D" loading="lazy"/></div><div class="card-body"><div class="card-kicker" data-i18n="s_3d_k">Three.js / R3F</div><h3 data-i18n="s_3d_t">3D Web Experiences</h3><p data-i18n="s_3d_d">GLB &lt;5MB, Draco compressed.</p></div></div>
+        <div class="card reveal reveal-delay-2"><div class="card-img"><img src="https://picsum.photos/id/5/600/400" alt="Consulting" loading="lazy"/></div><div class="card-body"><div class="card-kicker" data-i18n="s_con_k">Architecture</div><h3 data-i18n="s_con_t">Consulting</h3><p data-i18n="s_con_d">System design, tech decisions.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:20px;margin-bottom:48px">
+        <div><span class="eyebrow reveal" data-i18n="portfolio_l">P O R T F O L I O</span><h2 class="reveal" style="font-size:clamp(28px,4vw,44px);font-weight:800" data-i18n="portfolio_t">Selected work</h2></div>
+        <a href="portfolio.html" class="btn btn-ghost reveal" data-i18n="portfolio_all">View all projects</a>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal"><div class="card-img"><img src="https://picsum.photos/id/26/600/400" loading="lazy"/></div><div class="card-body"><div class="card-kicker">Fintech • 2026</div><h3>NeonPay Dashboard</h3><p>Real-time ledger with 99.9% uptime, LCP 1.8s.</p></div></div>
+        <div class="card reveal reveal-delay-1"><div class="card-img"><img src="https://picsum.photos/id/48/600/400" loading="lazy"/></div><div class="card-body"><div class="card-kicker">E-commerce • 2025</div><h3>Souk Market</h3><p>RTL-first with Almarai Arabic, Lexend English.</p></div></div>
+        <div class="card reveal reveal-delay-2"><div class="card-img"><img src="https://picsum.photos/id/60/600/400" loading="lazy"/></div><div class="card-body"><div class="card-kicker">SaaS • 2025</div><h3>CodeAtlas AI</h3><p>Prompt engineering platform, RAG, agent orchestrator.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--bg-2)">
+    <div class="container">
+      <span class="eyebrow reveal" style="text-align:center;display:block" data-i18n="testimonials_l">T E S T I M O N I A L S</span>
+      <div class="carousel reveal" style="margin-top:32px">
+        <div class="carousel-track">
+          <div class="carousel-slide"><p class="carousel-quote">"Master Code rebuilt our platform in 6 weeks. Clean commits, 85% coverage, LCP from 4.2s → 1.6s. Original VI respected."</p><div class="carousel-author"><img src="https://i.pravatar.cc/100?img=1" class="carousel-avatar"/><div style="text-align:left"><div style="font-weight:700">Lina K.</div><div style="font-size:13px;color:var(--text-muted)">CTO, NeonPay</div></div></div></div>
+          <div class="carousel-slide"><p class="carousel-quote">"They preserved our brand exactly — #F78400, MC monogram from PDF, Lexend/Almarai split. No AI slop, production quality."</p><div class="carousel-author"><img src="https://i.pravatar.cc/100?img=2" class="carousel-avatar"/><div style="text-align:left"><div style="font-weight:700">Omar S.</div><div style="font-size:13px;color:var(--text-muted)">Founder, Souk</div></div></div></div>
+          <div class="carousel-slide"><p class="carousel-quote">"The 24-agent workflow is real. Architecture → design tokens → frontend → perf → review → DevOps. Zero shortcuts."</p><div class="carousel-author"><img src="https://i.pravatar.cc/100?img=3" class="carousel-avatar"/><div style="text-align:left"><div style="font-weight:700">Bashar F.</div><div style="font-size:13px;color:var(--text-muted)">CEO, Master Code</div></div></div></div>
+        </div>
+        <div class="carousel-dots"><div class="dot active"></div><div class="dot"></div><div class="dot"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:840px">
+      <span class="eyebrow reveal" data-i18n="faq_l">F A Q</span>
+      <h2 class="reveal" style="font-size:clamp(28px,4vw,40px);font-weight:800;margin-bottom:32px" data-i18n="faq_t">Common questions</h2>
+      <div class="accordion reveal">
+        <div class="acc-item open"><button class="acc-btn"><span data-i18n="faq_q1">Do you preserve existing visual identity?</span><span class="acc-icon"><i data-lucide="plus" style="width:16px"></i></span></button><div class="acc-panel" style="max-height:300px"><div class="acc-content" data-i18n="faq_a1">Yes — we used your exact MC monogram from VI.pdf...</div></div></div>
+        <div class="acc-item"><button class="acc-btn"><span data-i18n="faq_q2">What tech stack do you use?</span><span class="acc-icon"><i data-lucide="plus" style="width:16px"></i></span></button><div class="acc-panel"><div class="acc-content" data-i18n="faq_a2">Pure HTML/CSS/JS...</div></div></div>
+        <div class="acc-item"><button class="acc-btn"><span data-i18n="faq_q3">How do you ensure clean code?</span><span class="acc-icon"><i data-lucide="plus" style="width:16px"></i></span></button><div class="acc-panel"><div class="acc-content" data-i18n="faq_a3">clean-code agent...</div></div></div>
+        <div class="acc-item"><button class="acc-btn"><span data-i18n="faq_q4">Do you support Arabic RTL?</span><span class="acc-icon"><i data-lucide="plus" style="width:16px"></i></span></button><div class="acc-panel"><div class="acc-content" data-i18n="faq_a4">Native — Almarai...</div></div></div>
+        <div class="acc-item"><button class="acc-btn"><span data-i18n="faq_q5">What's your delivery process?</span><span class="acc-icon"><i data-lucide="plus" style="width:16px"></i></span></button><div class="acc-panel"><div class="acc-content" data-i18n="faq_a5">interview → ...</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--orange);color:#fff;text-align:center">
+    <div class="container reveal">
+      <h2 style="font-size:clamp(32px,5vw,56px);font-weight:800;line-height:.95;margin-bottom:16px" data-i18n="cta_title">Ready to build<br/>clean, well-coded?</h2>
+      <p style="color:rgba(255,255,255,.85);max-width:560px;margin:0 auto 28px" data-i18n="cta_desc">Original VI preserved. MC monogram from PDF. #F78400 #2D3139. Lexend EN / Almarai AR. Let's ship production.</p>
+      <a href="contact.html" class="btn" style="background:#fff;color:var(--dark)"><span data-i18n="cta_btn">Start project</span> <i data-lucide="arrow-right" style="width:18px"></i></a>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-wrap">
+            <img src="assets/logo-white.png" alt="Master Code" class="logo-img" style="height:36px"/>
+            <span class="logo-text" style="color:#fff">MASTER <span style="color:#F78400">CODE</span></span>
+          </div>
+          <p data-i18n="contact_desc">Tell us about your project. We reply in 24h. Original VI #F78400 #2D3139 preserved, logo from PDF not redesigned.</p>
+          <div class="socials">
+            <a href="#" class="social-link" aria-label="GitHub"><i data-lucide="github" style="width:18px"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i data-lucide="twitter" style="width:18px"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:18px"></i></a>
+            <a href="#" class="social-link" aria-label="Dribbble"><i data-lucide="dribbble" style="width:18px"></i></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Company</h4><a href="index.html" data-i18n="nav_home">Home</a><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a><a href="team.html" data-i18n="nav_team">Team</a><a href="contact.html" data-i18n="nav_contact">Contact</a></div>
+        <div class="footer-col"><h4>Services</h4><a href="#">Web Development</a><a href="#">Mobile Apps</a><a href="#">Cloud & DevOps</a><a href="#">UI/UX Design</a><a href="#">Consulting</a></div>
+        <div class="footer-col"><h4>Contact</h4><a href="mailto:hello@mastercode.dev">hello@mastercode.dev</a><a href="tel:+970599000000">+970 599 000 000</a><a href="#">Deir al-Balah, Palestine</a><a href="#" style="margin-top:12px;color:#F78400">Lexend = English / Almarai = العربية فقط</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Master Code — clean, well-coded. VI Original #F78400 preserved.</span><span>Original logo from VI.pdf — Not redesigned</span></div>
+    </div>
+  </footer>
+  <button id="backTop" aria-label="Back to top"><i data-lucide="arrow-up" style="width:20px"></i></button>
+  <div id="toast" class="toast"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
